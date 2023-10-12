@@ -4,62 +4,70 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="shortcut icon" href="resource/icono-pestaña.png" />
     <title>Google</title>
 </head>
 <body>
-    <div class="div-container nav">
-        <div class="header">
-            <div>
-                <p>Gmail</p>
+    <header class="header">
+        <nav class="navigation">
+            <div class="resources">
+                <p><a class="link-nav" href="https://mail.google.com/">Gmail</a></p>
             </div>
             <div>
-                <p>imágenes</p>
+                <p><a class="link-nav" href="https://www.google.com/imghp?hl=es&authuser=0&ogbl">Imágenes</a></p>
             </div>
-            <div>
-                <p>icon</p>
+            <div class="cuentas">
+                <p class="menu-desplegable"></p>
             </div>
-            <div>
-                <p>pic</p>
+            <div class="cuentas">
+                <p><img class="profile-picture" src="resource/profile-picture.jpg" alt="pic" alt="Cuenta de Google"></p>
             </div>
-        </div>
-    </div>
+        </nav>
+    </header>
     <div class="div-container">
         <div class="port-search">
             <div class="img-google">
                 <picture>
-                    <img src="resource/google-logo.png" alt="logo-google" title="Google">
+                    <img class="google-logo" src="resource/google-logo.png" alt="logo-google" title="Google">
                 </picture>
             </div>
-            <div class="input-search">
-                <input type="text" />
+            <div class="search-container">
+                <div class="input-search">
+                    <i class="fa-solid fa-magnifying-glass" id="lupa"></i>
+                    <a href="#"><i class="fa-solid fa-microphone" id="microfono"></i></a>
+                    <a href="#"><i class="fa-solid fa-camera" id="camara"></i></a>
+                    <input type="text" />
+                </div>
             </div>
-            <div class="button">
-                <button>Buscar con Google</button>
-                <button>Voy a tener suerte</button>
-            </div>
-            <div class="reserved-rigths">
-                <p>Ofrecido por Google en: <a href=""">Español (latinoamerica)</a></p>
+            <div class="search-button">
+                <div class="button">
+                    <button>Buscar con Google</button>
+                    <button>Voy a tener suerte</button>
+                </div>
+            </div>    
+            <div class="rigths-reserved">
+                <p>Ofrecido por Google en<a class="link-rigth-r" href="">: Español (Latinoamérica)</a></p>
             </div>
         </div>
     </div>
-    <div class="div-container">
+    <footer class="footer">
         <div class="div-country">
             <p>Venezuela</p>
         </div>
-        <hr />
         <div class="div-about">
-            <div class="more information">
-                <p>Sobre Google</p>
-                <p>Publicidad</p>
-                <p>Negocios</p>
-                <p>Cómo funciona la búsqueda</p>
+            <div class="more-information1">
+                <p><a class="link-footer" href="https://about.google/?utm_source=google-VE&utm_medium=referral&utm_campaign=hp-footer&fg=1">Sobre Google</a></p>
+                <p><a class="link-footer" href="https://ads.google.com/intl/es-419/home/">Publicidad</a></p>
+                <p><a class="link-footer" href="https://smallbusiness.withgoogle.com/intl/es-419/?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google&utm_medium=ep&utm_campaign=google_hpbfooter&utm_content=google_hpbfooter&gmbsrc=ww-ww-et-gs-z-gmb-s-z-u~sb-g4sb_srvcs-u&c=VE#!/">Negocios</a></p>
+                <p><a class="link-footer" href="https://www.google.com/search/howsearchworks/?fg=1">Cómo funciona la búsqueda</a></p>
             </div>
-            <div class="more information">
-                <p>Privacidad</p>
-                <p>Condiciones</p>
-                <p>Preferencias</p>
+            <div class="more-information2">
+                <p><a class="link-footer" href="https://policies.google.com/privacy?hl=es-VE&fg=1">Privacidad</a></p>
+                <p><a class="link-footer" href="https://policies.google.com/terms?hl=es-VE&fg=1">Condiciones</a></p>
+                <p><a class="link-footer" href="#">Preferencias</a></p>
             </div>
         </div>
-    </div>
+    </footer>
 </body>
 </html>
