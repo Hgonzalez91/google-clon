@@ -79,6 +79,7 @@ input{
     height: 44px;
     border: 1px solid #cfd6dd;
     border-radius: 30px;
+    outline: 0;
 }
 
 #lupa{
